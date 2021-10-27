@@ -81,7 +81,7 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: 28px;
   text-decoration: none;
 }
@@ -107,13 +107,14 @@ p {
 }
 .about {
   padding: 160px 20px 225px 10px;
-  background-image: url(/images/aboutme.jpg);
+  background-image: url(/images/about.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: 0.9;
 }
 .projects {
   padding: 160px 20px 225px 10px;
-  background-image: url(/images/projects.jpg);
+  background-image: url(/images/projects2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -197,4 +198,8 @@ p {
   display: inline-flex;
   margin: 10px;
   font-size: 28px;
+}
+
+.sound-engineer {
+  margin-top: 110px;
 }
