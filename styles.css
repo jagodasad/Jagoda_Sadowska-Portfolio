@@ -2,10 +2,6 @@
   --primary-color: #0b0c0c;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-
-  --bg-color: hsl(49 37% 94%);
-  --typewriterSpeed: 6s;
-  --typewriterCharacters: 24;
 }
 
 h1,
@@ -18,6 +14,7 @@ h3 {
 
 h1 {
   font-size: 96px;
+  margin-top: 70px;
 }
 
 h2 {
@@ -103,7 +100,7 @@ p {
   color: white;
 }
 .main {
-  padding: 160px 20px 225px 10px;
+  padding: 160px 20px 25px 10px;
   background-image: url(/images/homepage6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -114,6 +111,19 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.projects {
+  padding: 160px 20px 225px 10px;
+  background-image: url(/images/projects.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.platforms {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: var(--secondary-color);
+  opacity: 0.7;
+}
+
 @media (max-width: 576px) {
   .buttons-link {
     display: block;
@@ -169,4 +179,22 @@ p {
   50% {
     border-color: rgb(230, 227, 223);
   }
+}
+
+.social-icons a {
+  border-radius: 50%;
+  color: var(--secondary-color);
+  opacity: 0.8;
+  display: inline-flex;
+  margin: 10px;
+  font-size: 28px;
+  margin-top: 80px;
+}
+.about-icons {
+  border-radius: 50%;
+  color: var(--secondary-color);
+  opacity: 0.8;
+  display: inline-flex;
+  margin: 10px;
+  font-size: 28px;
 }
