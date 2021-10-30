@@ -108,6 +108,7 @@ p {
 .about {
   padding: 160px 20px 225px 10px;
   background-image: url(/images/about.jpg);
+  background-position: 20%;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.9;
@@ -150,6 +151,7 @@ p {
 .typewriter {
   font-family: "Nunito", sans-serif;
   display: inline-block;
+  margin-top: 20px;
 }
 
 .typewriter-text {
@@ -191,6 +193,7 @@ p {
   margin: 10px;
   font-size: 28px;
   margin-top: 80px;
+  text-decoration: none;
 }
 .about-icons {
   border-radius: 50%;
@@ -202,6 +205,16 @@ p {
 }
 
 .sound-engineer {
-  margin-top: 310px;
-  color: var(--primary-color);
+  margin-top: 200px;
+  margin-inline-start: 100px;
+}
+
+.sound-engineer-h3 {
+  margin-inline-start: 350px;
+}
+.api {
+  background-color: #d2d0da;
+}
+.projects-container {
+  margin-top: 80px;
 }
