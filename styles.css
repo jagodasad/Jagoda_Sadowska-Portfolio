@@ -28,7 +28,7 @@ h3 {
 h4 {
   margin: 0;
   font-family: "Nunito", sans-serif;
-  color: black;
+  color: var(--primary-color);
   font-size: 40px;
   opacity: 0.9;
 }
@@ -38,7 +38,9 @@ p {
   line-height: 1.5;
   font-family: "Roboto Slab", serif;
 }
-
+.projects-p {
+  color: var(--secondary-color);
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -106,7 +108,7 @@ p {
   background-repeat: no-repeat;
 }
 .about {
-  padding: 160px 20px 225px 10px;
+  padding: 160px 20px 60px 10px;
   background-image: url(/images/about.jpg);
   background-position: 20%;
   background-size: cover;
@@ -114,7 +116,7 @@ p {
   opacity: 0.9;
 }
 .projects {
-  padding: 160px 20px 225px 10px;
+  padding: 160px 20px 65px 10px;
   background-image: url(/images/projects2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -148,12 +150,8 @@ p {
 
 .sound-engineer {
   margin-top: 200px;
-  margin-inline-start: 100px;
 }
 
-.sound-engineer-h3 {
-  margin-inline-start: 350px;
-}
 .api {
   background-color: #d2d0da;
 }
@@ -192,11 +190,24 @@ p {
     border-color: transparent;
   }
   50% {
-    border-color: rgb(230, 227, 223);
+    border-color: var(--secondary-color);
   }
 }
 
 @media (max-width: 576px) {
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  p {
+    text-align: center;
+  }
   .buttons-link {
     display: block;
     text-align: center;
@@ -222,17 +233,17 @@ p {
   .vscode {
     background-color: var(--primary-color);
   }
-  h2 {
-    font-size: 32px;
-    text-align: center;
+  .about {
+    padding: 60px 20px 35px 10px;
   }
-
-  h1 {
-    font-size: 48px;
-    line-height: 1.5;
+  .sound-engineer {
+    margin-top: 90px;
   }
-
-  p {
-    text-align: center;
+  .sound-engineer-h3,
+  .front-end-h3 {
+    font-size: 22px;
+  }
+  .projects {
+    padding: 60px 20px 65px 10px;
   }
 }
