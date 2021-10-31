@@ -127,64 +127,6 @@ p {
   opacity: 0.7;
 }
 
-@media (max-width: 576px) {
-  .buttons-link {
-    display: block;
-    text-align: center;
-    margin: 0 20px;
-  }
-
-  h2 {
-    font-size: 32px;
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 48px;
-    line-height: 1.5;
-  }
-
-  p {
-    text-align: center;
-  }
-}
-.typewriter {
-  font-family: "Nunito", sans-serif;
-  display: inline-block;
-  margin-top: 20px;
-}
-
-.typewriter-text {
-  display: inline-block;
-  overflow: hidden;
-  letter-spacing: 2px;
-  animation: typing 3s steps(20, end), blink 0.75s step-end infinite;
-  white-space: nowrap;
-  font-size: 30px;
-  font-weight: 700;
-  border-right: 4px solid rgb(233, 230, 225);
-  box-sizing: border-box;
-}
-
-@keyframes typing {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes blink {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: rgb(230, 227, 223);
-  }
-}
-
 .social-icons a {
   border-radius: 50%;
   color: var(--secondary-color);
@@ -217,4 +159,80 @@ p {
 }
 .projects-container {
   margin-top: 80px;
+}
+.typewriter {
+  font-family: "Nunito", sans-serif;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.typewriter-text {
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing: 2px;
+  animation: typing 3s steps(20, end), blink 0.75s step-end infinite;
+  white-space: nowrap;
+  font-size: 30px;
+  font-weight: 700;
+  border-right: 4px solid rgb(233, 230, 225);
+  box-sizing: border-box;
+}
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(230, 227, 223);
+  }
+}
+
+@media (max-width: 576px) {
+  .buttons-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+  .main {
+    padding: 60px 20px 25px 10px;
+  }
+  .platforms {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: var(--primary-color);
+    opacity: 0.7;
+  }
+  .about-icons {
+    color: var(--primary-color);
+    opacity: 0.8;
+    display: inline-flex;
+    margin: 10px;
+    font-size: 18px;
+  }
+  .api,
+  .vscode {
+    background-color: var(--primary-color);
+  }
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  p {
+    text-align: center;
+  }
 }
