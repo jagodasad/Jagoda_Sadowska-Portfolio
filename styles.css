@@ -32,6 +32,13 @@ h4 {
   font-size: 40px;
   opacity: 0.9;
 }
+h5 {
+  margin-bottom: 40px;
+  font-size: 21px;
+  line-height: 1.5;
+  font-family: "Roboto Slab", serif;
+  color: var(--primary-color);
+}
 
 p {
   font-size: 19px;
@@ -225,8 +232,14 @@ p {
     line-height: 1.5;
   }
 
+  h5 {
+    font-size: 19px;
+  }
   p {
     text-align: center;
+  }
+  .what-i-offer {
+    color: var(--secondary-color);
   }
   .buttons-link {
     display: block;
