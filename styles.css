@@ -2,6 +2,7 @@
   --primary-color: #0b0c0c;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --hover: rgb(70, 52, 70);
 }
 
 h1,
@@ -53,7 +54,9 @@ p {
   margin-top: 40px;
   justify-content: center;
 }
-
+.nav-link {
+  font-family: "Nunito", serif;
+}
 .navigation-links a {
   margin: 20px;
   border-radius: 4px;
@@ -61,7 +64,9 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
-
+.navigation-links :hover {
+  color: var(--hover);
+}
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -97,6 +102,7 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+  color: var(--hover);
 }
 
 .primary-link {
@@ -107,6 +113,9 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+.primary-link:hover {
+  color: var(--hover);
 }
 .main {
   padding: 160px 20px 25px 10px;
