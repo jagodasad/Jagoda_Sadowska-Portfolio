@@ -116,7 +116,7 @@ p {
 }
 .about {
   padding: 160px 20px 60px 10px;
-  background-image: url(/images/about9.jpg);
+  background-image: url(/images/aboutt.jpg);
   background-position: 90%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -129,12 +129,12 @@ p {
 }
 .front-end-h3,
 .sound-engineer-h3 {
-  font-size: 25px;
+  font-size: 24px;
 }
 
 .projects {
   padding: 160px 20px 65px 10px;
-  background-image: url(/images/projects2.jpg);
+  background-image: url(/images/projects.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.9;
@@ -202,6 +202,11 @@ p {
   border-right: 4px solid rgb(233, 230, 225);
   box-sizing: border-box;
 }
+.img {
+  width: 450px;
+  height: 350px;
+  background-size: cover;
+}
 @keyframes typing {
   from {
     width: 0%;
@@ -268,6 +273,7 @@ p {
   }
   .about {
     padding: 60px 20px 35px 10px;
+    background-position: 75%;
   }
   .sound-engineer {
     margin-top: 90px;
