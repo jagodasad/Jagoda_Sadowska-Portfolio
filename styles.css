@@ -211,7 +211,17 @@ p {
   border-right: 4px solid rgb(233, 230, 225);
   box-sizing: border-box;
 }
-
+.footer {
+  color: var(--secondary-color);
+  font-size: 15px;
+}
+.footer-link {
+  text-decoration: none;
+  color: rgb(175, 162, 162);
+}
+.footer-link:hover {
+  color: var(--hover);
+}
 @keyframes typing {
   from {
     width: 0%;
